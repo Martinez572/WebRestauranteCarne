@@ -2,9 +2,11 @@ interface ProductCardProps {
   name: string;
   desc: string;
   priceFormatted: string;
+  btnText?: string;
   image: string;
   onAdd: () => void;
   theme: 'light' | 'dark'; // <-- Recibe el tema
+
 }
 
 export default function ProductCard({ name, desc, priceFormatted, image, onAdd, theme }: ProductCardProps) {
