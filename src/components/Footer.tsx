@@ -10,9 +10,9 @@ export default function Footer({ dict }: FooterProps) {
         {/* Columna 1: Logo y Derechos */}
         <div className="flex flex-col items-center md:items-start justify-center">
           <img 
-            src="/logo.webp" 
+            src="/logo.png" 
             alt="Restaurante Carne" 
-            className="h-12 w-auto mb-4 filter brightness-200" 
+            className="h-16 w-auto mb-4 filter brightness-200" 
           />
           <p className="text-xs text-gray-500">{dict.footer.rights}</p>
         </div>
