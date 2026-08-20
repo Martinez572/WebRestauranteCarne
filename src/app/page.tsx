@@ -106,13 +106,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left z-10">
             <h2 className={`font-serif italic text-2xl md:text-3xl mb-2 ${theme === 'dark' ? 'text-white' : 'text-gray-800'}`}>
-              {lang === 'es' ? 'Sabor que satisface' : 'Cravings, Satisfied'}
+              
             </h2>
-           <img 
-              src="/logoo.jpg" 
-              alt="Logo Restaurante" 
-              className="w-full max-w-[100px] md:max-w-sm mb-6 object-contain"
-            />
+       <img 
+    src="/logoo.png" 
+    alt="Logo Restaurante" 
+    className="w-full max-w-[400px] md:max-w-[700px] mb-8 object-contain mr-auto ml-0" 
+  />
             <p className={`text-lg leading-relaxed mb-8 max-w-md mx-auto md:mx-0 ${theme === 'dark' ? 'text-zinc-400' : 'text-gray-600'}`}>
               {dict.hero.subtitle}
             </p>
